@@ -3,10 +3,15 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
+  <title>Portfolio | Steven</title>
+  <!-- Added link to the jQuery Library -->
+  
+  <script src="https://code.jquery.com/jquery.js"></script>    
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
 </head>
 
 <body>
@@ -67,18 +72,19 @@
       <!---------Row 2 Pictures   ------>
 
       <!-- Cube 1 -->
-      <div class="container">
+      <div class="container" id="crystal">
       <div class="row">
         <div class="col-xl-4">
           <div class="work">
+             
            
-
+            <a>
             <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-            <h3>Word Guess</h3>
+          </a>
+            <h3>The Crystal Collector</h3>
           </div>
         </div>
-      
+     
 
         <!-- Cube 2 -->
 
@@ -147,6 +153,31 @@
             </div>
         </div>
   
+
+
+        <script>
+          $("#crystal").wrap("<a href='https://sdytewski.github.io/unit-4-game/'></a>")
+
+            
+     
+     
+             </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
