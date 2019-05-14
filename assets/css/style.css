@@ -1,9 +1,15 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: avenir, sans-serif;
   font-size: 18px;
   line-height: 34px;
-  color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background-color: #ece9e7;
+  background: linear-gradient(
+    to right, 
+    #ece9e7 0%, 
+    #e4e0e0 50%, 
+    #d0d0d4 50%, 
+    #ece9e7 100%
+  );
 }
 
 * {
@@ -12,12 +18,12 @@ body {
 
 /* general */
 
-.container {
+/* .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-}
+} */
 
 h1,
 h2,
@@ -35,7 +41,17 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #222222;
+}
+
+h4{
+  
+  font-family: Freight Text Pro,serif;
+  font-size: 2.2rem;
+  letter-spacing: .008rem;
+  font-weight: 700;
+  line-height: 1.4;
+
 }
 
 h1 {
@@ -47,7 +63,7 @@ h1 {
 
 h2,
 h3 {
-  font-size: 22px;
+  font-size: 16px;
 }
 
 /* header */
@@ -58,9 +74,14 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  background: linear-gradient(
+    to right, 
+    #ece9e7 0%, 
+    #e4e0e0 50%, 
+    #d0d0d4 50%, 
+    #ece9e7 100%
+  );
+  border-bottom: 2px solid #615c5c;
 }
 
 #logo {
@@ -76,21 +97,50 @@ h3 {
   text-decoration: none;
   background: #4aaaa5;
 }
-
+/* 
 nav {
   float: right;
-  margin-top: 25px;
+ 
+} */
+.bg-light {
+  background: linear-gradient(
+    to right, 
+    #ece9e7 0%, 
+    #e4e0e0 50%, 
+    #d0d0d4 50%, 
+    #ece9e7 100%
+  );
 }
-
 nav a {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  /* color: #999; */
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
+
+ .navbar-nav li a {
+  font-family: avenir, sans-serif;
+  font-weight: 540;
+  letter-spacing: .18rem;
+  font-size: .88rem;
+  text-rendering: optimizeLegibility;
+  color: black !important;
+  /* text-decoration: underline !important; */
+
+} 
+
+/* change the color of active or hovered links */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+   
+    background-color: #cc6363; /* add background-color to active links */
+}
+
+
+
 
 
 
@@ -104,18 +154,26 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #ffffff;
-  color: #cccccc;
+  color: #252424;
+ 
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: #d3c4c4;
+  
   height: 50px;
 }
 
+h1 {
+
+  font-size: 3.2rem;}
+
 h3, h2 {
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
+  font-family: Freight Text Pro,serif;
+  font-size: 2.4rem;
+  letter-spacing: .008rem;
+  font-weight: 400;
+  line-height: 1.1;
+ 
+
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -126,7 +184,7 @@ h3, h2 {
   min-height: calc(100vh - 70px);
 }
 
-.main-section {
+/* .main-section {
   float: left;
   width: 100%;
   max-width: 960px;
@@ -134,7 +192,7 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
-}
+} */
 
 /* portfolio page */
 
@@ -172,17 +230,75 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
 
- 
+
+
+.auth-right {
+margin-top: 40px;
+position: relative;  
+z-index: -1;
+
 }
 
+.auth-left {
+  position: relative; 
+  z-index: -1;
+  
+  }
 
+ 
+  .container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-family: Freight Text Pro,serif;
+    font-size: 2.2rem;
+    letter-spacing: .008rem;
+    font-weight: 700;
+    line-height: 1.4;
+    
+    color: #333;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 530px;
+
+
+  }
+ 
+
+    
+    
+    
+
+
+  .words{
+    padding-bottom: 150px;
+    font-family: Freight Text Pro,serif;
+    font-size: 5.2rem;
+    letter-spacing: .008rem;
+    font-weight: 700;
+    line-height: 1.4;
+    z-index: 4;
+
+
+  }
+
+  #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgb(194, 161, 161);
+    margin-left:30px;
+  }
+
+
+  
 /* contact page */
 
 #contact-form ul {
@@ -226,3 +342,5 @@ input[type=submit] {
 /* * {
 	border: 2px solid red;
 } */
+
+
