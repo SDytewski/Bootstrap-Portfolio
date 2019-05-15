@@ -442,9 +442,9 @@ input[type=submit] {
   }
 
   #steve{
-    padding-top: 10px;
+    
     height: auto;
-    margin-left: -15px;
+  
   }
 
 
@@ -490,7 +490,7 @@ font-size: 54px;
   } */
 
   .pic > img {
-    width: 105%;
+    width: 100%;
 
 
   }
