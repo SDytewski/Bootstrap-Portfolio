@@ -593,6 +593,7 @@ font-size: 54px;
  
    padding-left: 35px;
     padding-bottom: 390px;
+    right:-6px;
   }
 
   #portfolio {
@@ -611,9 +612,12 @@ font-size: 54px;
     margin-top: 40px;
   font-size: 24px;
   padding-bottom: 29px;
-
+  
   
     }
+
+    #hero {margin-left: 40px;
+         }
 
     
 }
@@ -625,4 +629,5 @@ font-size: 54px;
 
   margin-left: 40px;
  }
-}
+
+ }
