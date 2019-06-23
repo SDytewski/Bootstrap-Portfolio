@@ -280,6 +280,11 @@ h3, h2 {
 
 }
 
+#clicky {
+  padding-top: 10px;
+
+}
+
 .text-block {
   position: absolute;
   bottom: 20px;
