@@ -107,6 +107,11 @@ nav {
   background: linear-gradient(to right, #ece9e7 0%, #e4e0e0 50%, #d0d0d4 50%, #ece9e7 100%);
 }
 
+#specialButton{
+margin-bottom: 15px;
+
+}
+
 
 nav a {
   display: inline-block;
