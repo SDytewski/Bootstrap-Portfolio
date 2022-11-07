@@ -97,10 +97,10 @@ h3 {
   background: #4aaaa5;
 }
 
-/* 
+/*
 nav {
   float: right;
- 
+
 } */
 
 .bg-light {
@@ -154,7 +154,7 @@ footer {
   font-size: 13px;
   font-weight: 540;
   letter-spacing: .18rem;
- 
+
   padding: 30px 0;
   clear: both;
 
@@ -162,14 +162,14 @@ footer {
   text-align: left;
   background: #d3c4c4;
   height: 50px;
-  
+
 }
 
 
 h1 {
-  
+
   font-size: 4.2rem;
-  
+
 }
 
 
@@ -213,6 +213,12 @@ h3, h2 {
   font-family: avenir;
   text-align: right;
   color: rgb(243, 188, 188);
+}
+
+
+.card-img-top {
+  max-height: 225.16px;
+
 }
 .work {
   position: relative;
@@ -324,7 +330,7 @@ h3, h2 {
   border-right: 50px solid transparent;
   border-top: 100px solid #c2a1a1;
   margin-left: 30px;
-  
+
 } */
 
 
@@ -445,24 +451,24 @@ input[type=submit] {
 
 @media only screen and (max-width: 1000px) {
   #hero { margin-bottom: 0px
-   
-}
 
 }
 
-/* 
+}
+
+/*
 @media only screen and (max-width: 785px) {
   .main-section {
 
     margin-top: 140px;
- 
+
   } */
 
   /* @media only screen and (max-width: 920px) {
     h1 {
       font-size: 40px;
-  
-  
+
+
     }
 
     .text-block {
@@ -493,7 +499,7 @@ input[type=submit] {
   .main-section {
 
     margin-top: 140px;
- 
+
   }
   #portfolio-section {
 
@@ -509,17 +515,17 @@ input[type=submit] {
   }
 
   #steve {
-    
+
     height: auto;
-  
+
   }
 
   #hero {
     font-size: 40px;
-  
+
   }
 
-  
+
 
   .aboutMe {
     padding-top: 0;
@@ -543,9 +549,9 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 581px) {
- 
+
   h1{
-    
+
   margin-top: 40px;
 font-size: 54px;
 
@@ -563,13 +569,13 @@ font-size: 54px;
 
 @media only screen and (max-width: 521px) {
   /* #steve{
-   
+
     width: 105%;
     height: auto;
-         
+
   } */
 
-  
+
 
   .text-block {
     position: absolute;
@@ -587,7 +593,7 @@ font-size: 54px;
   }
 
   #hero {
- 
+
     font-size: 40px;
   }
 
@@ -600,9 +606,9 @@ font-size: 54px;
 
 
 @media only screen and (max-width: 451px) {
- 
+
   .text-block {
- 
+
    padding-left: 35px;
     padding-bottom: 390px;
     right:-6px;
@@ -610,7 +616,7 @@ font-size: 54px;
 
   #portfolio {
     margin-top: -40px;
-  
+
   }
 
   #contact-section {
@@ -618,25 +624,25 @@ font-size: 54px;
     margin-top: -30px;
 
   }
-  
+
   h1{
     text-align: center;
     margin-top: 40px;
   font-size: 24px;
   padding-bottom: 29px;
-  
-  
+
+
     }
 
     #hero {margin-left: 40px;
          }
 
-    
+
 }
 
 
 @media only screen and (max-width: 345px) {
- 
+
  .text-block {
 
   margin-left: 40px;
